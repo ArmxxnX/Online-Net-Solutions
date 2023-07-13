@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    overflow: hidden;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #35B7FF;
+    border-bottom: 2px solid #35B7FF;
+}
+
+#navcall {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #FF2D2D;
+    border-radius: 3rem;
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.2s ease-in-out;
+    padding: 10px;
+    text-align: center;
+}
+
+#navcall:hover {
+    color: #FF2D2D;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+}
